@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.com.dhruv.DeleteEmployeeController">
+    <VBox alignment="CENTER" spacing="10.0">
+        <Label text="Delete Employee"/>
+        <TextField fx:id="employeeIdField" promptText="Employee ID"/>
+        <Button text="Delete" onAction="#handleDeleteButton"/>
+    </VBox>
+</AnchorPane>

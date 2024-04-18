@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.com.dhruv.HomeController">
+    <VBox alignment="CENTER" spacing="10.0">
+        <Button text="Update Employee Salary" onAction="#openUpdateWindow"/>
+        <Button text="Create New Employee" onAction="#openCreateWindow"/>
+        <Button text="Delete Employee" onAction="#openDeleteWindow"/>
+    </VBox>
+</AnchorPane>

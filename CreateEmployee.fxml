@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.com.dhruv.CreateEmployeeController">
+    <VBox alignment="CENTER" spacing="10.0">
+        <Label text="Create New Employee"/>
+        <TextField fx:id="nameField" promptText="Name"/>
+        <TextField fx:id="positionField" promptText="Position"/>
+        <TextField fx:id="salaryField" promptText="Salary"/>
+        <Button text="Create" onAction="#handleCreateButton"/>
+    </VBox>
+</AnchorPane>
